@@ -8,5 +8,5 @@ function num() {
   var totalAmmount = document.querySelector(".total-ammount");
 
   var summation = parseInt(input1) + parseInt(input2);
-  totalAmmount.innerText = "hello";
+  totalAmmount.innerText = "Your Total ammount is " + summation + " BDT!";
 }
